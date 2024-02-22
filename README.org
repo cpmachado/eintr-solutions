@@ -1,0 +1,7 @@
+#+title: eintr-solutions
+#+author: cpmachado
+
+
+My solutions of the exercises of "An Introduction to Programming in Emacs Lisp"(eintr).
+
+
