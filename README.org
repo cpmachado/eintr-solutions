@@ -1,13 +1,13 @@
 #+title: eintr-solutions
 #+author: cpmachado
-#+startup: overview num
+#+startup: overview
 
 
 My solutions of the exercises of "An Introduction to Programming in Emacs Lisp"(eintr).
 
 
-* List Processing
-** Error Message Exercises
+* 1. List Processing
+** 1.11 Error Message Exercises
 *** Exercise 1.11.1
 Generate an error message by evaluating an appropriate symbol that is not within parentheses.
 *** Exercise 1.11.2
@@ -23,19 +23,19 @@ Write an expression that prints a message in the echo area when evaluated.
 #+RESULTS:
 : Hello World
 
-* Practicing Evaluation
+* 2. Practicing Evaluation
 ** Evaluation Exercise
-* Writing Defuns
+* 3. Writing Defuns
 ** defun Exercises
-* Buffer Walk Through
+* 4. Buffer Walk Through
 ** Buffer Exercises
-* More Complex
+* 5. More Complex
 ** optional Exercise
-* Narrowing & Widening
+* 6. Narrowing & Widening
 ** narrow Exercise
-* car cdr & cons
+* 7. car cdr & cons
 ** cons Exercise
-* Cutting & Storing Text
+* 8. Cutting & Storing Text
 ** search Exercises
-* List Implementation
+* 9. List Implementation
 ** List Exercise
