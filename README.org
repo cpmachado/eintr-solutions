@@ -1,7 +1,26 @@
 #+title: eintr-solutions
 #+author: cpmachado
+#+startup: overview num
 
 
 My solutions of the exercises of "An Introduction to Programming in Emacs Lisp"(eintr).
 
 
+* List Processing
+** Error Message Exercises
+* Practicing Evaluation
+** Evaluation Exercise
+* Writing Defuns
+** defun Exercises
+* Buffer Walk Through
+** Buffer Exercises
+* More Complex
+** optional Exercise
+* Narrowing & Widening
+** narrow Exercise
+* car cdr & cons
+** cons Exercise
+* Cutting & Storing Text
+** search Exercises
+* List Implementation
+** List Exercise
