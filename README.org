@@ -8,6 +8,17 @@ My solutions of the exercises of "An Introduction to Programming in Emacs Lisp"(
 
 * List Processing
 ** Error Message Exercises
+*** Generate an error message by evaluating an appropriate symbol that is not within parentheses.
+*** Generate an error message by evaluating an appropriate symbol that is between parentheses.
+*** Create a counter that increments by two rather than one.
+*** Write an expression that prints a message in the echo area when evaluated.
+#+begin_src emacs-lisp
+  (message "Hello World")
+#+end_src
+
+#+RESULTS:
+: Hello World
+
 * Practicing Evaluation
 ** Evaluation Exercise
 * Writing Defuns
