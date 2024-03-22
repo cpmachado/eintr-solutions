@@ -1,7 +1,53 @@
 #+title: eintr-solutions
 #+author: cpmachado
+#+startup: overview
 
 
 My solutions of the exercises of "An Introduction to Programming in Emacs Lisp"(eintr).
 
 
+* 1. List Processing
+** 1.11 Error Message Exercises
+*** Exercise 1.11.1
+Generate an error message by evaluating an appropriate symbol that is not within parentheses.
+#+begin_src emacs-lisp :tangle ch1/ex1.el
+  ;; Exercise 1.11.1: Generate an error message by evaluating an appropriate symbol that is not within parentheses.
+  message
+#+end_src
+*** Exercise 1.11.2
+Generate an error message by evaluating an appropriate symbol that is between parentheses.
+#+begin_src emacs-lisp :tangle ch1/ex2.el
+  ;; Exercise 1.11.2: Generate an error message by evaluating an appropriate symbol that is between parentheses.
+  (fill-column)
+#+end_src
+*** Exercise 1.11.3
+Create a counter that increments by two rather than one.
+#+begin_src emacs-lisp :tangle ch1/ex3.el
+  ;; Exercise 1.11.3: Create a counter that increments by two rather than one.
+  (setq counter 0)                ; Let’s call this the initializer.
+  (setq counter (+ counter 1))    ; This is the incrementer.
+  counter                         ; This is the counter.
+#+end_src
+*** Exercise 1.11.4
+Write an expression that prints a message in the echo area when evaluated.
+#+begin_src emacs-lisp :tangle ch1/ex4.el
+  ;; Exercise 1.11.4: Write an expression that prints a message in the echo area when evaluated.
+  (message "Hello World")
+#+end_src
+
+* TODO 2. Practicing Evaluation
+** Evaluation Exercise
+* TODO 3. Writing Defuns
+** defun Exercises
+* TODO 4. Buffer Walk Through
+** Buffer Exercises
+* TODO 5. More Complex
+** optional Exercise
+* TODO 6. Narrowing & Widening
+** narrow Exercise
+* TODO 7. car cdr & cons
+** TODO cons Exercise
+* TODO 8. Cutting & Storing Text
+** search Exercises
+* TODO 9. List Implementation
+** List Exercise
