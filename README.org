@@ -35,19 +35,19 @@ Write an expression that prints a message in the echo area when evaluated.
   (message "Hello World")
 #+end_src
 
-* 2. Practicing Evaluation
+* TODO 2. Practicing Evaluation
 ** Evaluation Exercise
-* 3. Writing Defuns
+* TODO 3. Writing Defuns
 ** defun Exercises
-* 4. Buffer Walk Through
+* TODO 4. Buffer Walk Through
 ** Buffer Exercises
-* 5. More Complex
+* TODO 5. More Complex
 ** optional Exercise
-* 6. Narrowing & Widening
+* TODO 6. Narrowing & Widening
 ** narrow Exercise
-* 7. car cdr & cons
-** cons Exercise
-* 8. Cutting & Storing Text
+* TODO 7. car cdr & cons
+** TODO cons Exercise
+* TODO 8. Cutting & Storing Text
 ** search Exercises
-* 9. List Implementation
+* TODO 9. List Implementation
 ** List Exercise
