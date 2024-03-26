@@ -62,8 +62,29 @@ Find its buffer name, file name, length, and your position in the file.
   (message (point))
 #+end_src
 
-* TODO 3. Writing Defuns
-** defun Exercises
+* 3. Writing Defuns
+** 3.12 defun Exercises
+Write a non-interactive function that doubles the value of its
+argument, a number.  Make that function interactive.
+
+#+begin_src emacs-lisp :tangle ch3/ex.el
+  (defun double-value (number)
+    "Double the value"
+    (* 2 number))
+#+end_src
+
+Write a function that tests whether the current value of
+‘fill-column’ is greater than the argument passed to the function,
+and if so, prints an appropriate message.
+
+#+begin_src emacs-lisp :tangle ch3/ex.el
+  (defun check-fill-column (number)
+    "Check if fill-column is bigger than parameter"
+    (interactive "p")
+    (if (> fill-column number)
+	(message "fill-column: %d  is greater than %d" fill-column number)))        
+#+end_src
+
 * TODO 4. Buffer Walk Through
 ** Buffer Exercises
 * TODO 5. More Complex
